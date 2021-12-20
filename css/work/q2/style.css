@@ -1,5 +1,40 @@
 @charset "UTF-8";
 
+.table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  
+}
+
+.th {
+  background-color: #2244aa;
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 10px;
+  border: solid 1px white;
+}
+
+.td_white {
+  background-color: #ecf1f2;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px;
+  border: solid 1px white;
+}
+
+.bottom {
+  border-top: dashed 2px #000;
+}
+
+.td_gray {
+  background-color: #dedede;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px;
+  border: solid 1px white;
+}
 
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
