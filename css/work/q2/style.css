@@ -4,10 +4,9 @@
   width: 100%;
   table-layout: fixed;
   text-align: center;
-  
 }
 
-.th {
+th {
   background-color: #2244aa;
   color: white;
   font-size: 18px;
@@ -16,24 +15,19 @@
   border: solid 1px white;
 }
 
-.td_white {
+td {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px;
+  border: solid 1px #dedede;
+}
+
+tr:nth-child(even) td {
   background-color: #ecf1f2;
-  font-size: 16px;
-  line-height: 22px;
-  padding: 10px;
-  border: solid 1px white;
 }
 
-.bottom {
+tr:last-child{
   border-top: dashed 2px #000;
-}
-
-.td_gray {
-  background-color: #dedede;
-  font-size: 16px;
-  line-height: 22px;
-  padding: 10px;
-  border: solid 1px white;
 }
 
 /* q2が終わったら
