@@ -10,36 +10,34 @@
 }
 
 .q7_text {
-  position: relative;
-  width: 510px;
-  padding: 20px;
   border: 5px #222 solid;
   border-radius: 30px;
   margin-left: 35px;
+  padding: 20px;
+  position: relative;
+  width: 510px;
 }
 
 .q7_text::before {
-  position: absolute;
-  bottom: 25px;
-  left: 0;
-  width: 0;
-  height: 0;
   border: 20px solid transparent;
-  content: "";
-  left: -45px;
   border-right-color: #222;
+  bottom: 25px;
+  content: "";
+  height: 0;
+  left: -45px;
+  position: absolute;
+  width: 0;
 }
 
 .q7_text::after {
-  position: absolute;
-  bottom: 25px;
-  left: 0;
-  width: 0;
-  height: 0;
   border: 20px solid transparent;
-  content: "";
-  left: -38px;
   border-right-color: #fff;
+  bottom: 25px;
+  content: "";
+  height: 0;
+  left: -38px;
+  position: absolute;
+  width: 0;
 }
 
 .q7_text p {

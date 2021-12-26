@@ -7,9 +7,9 @@
 }
 
 .q5_float {
-  width: 400px;
   float: left;
   margin-left: 60px;
+  width: 400px;
 }
 
 .q5_float:first-child {
@@ -22,8 +22,8 @@
 
 .q5_table_cell {
   display: table-cell;
-  width: 400px;
   padding-left: 60px;
+  width: 400px;
 }
 
 .q5_table_cell:first-child {
@@ -32,8 +32,8 @@
 
 .q5_inline {
   display: inline-block;
-  width: 400px;
   margin-left: 54px;
+  width: 400px;
 }
 
 .q5_inline:first-child {
@@ -51,8 +51,8 @@
 
 .q5_calc {
   display: inline-block;
-  width: calc((100% - 60px) / 3);
   margin-left: 20px;
+  width: calc((100% - 60px) / 3);
 }
 
 .q5_calc:first-child {

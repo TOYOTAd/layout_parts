@@ -6,12 +6,12 @@
 }
 
 .q6_box {
-  width: 300px;
-  height: 201.8px;
-  position: relative;
-  overflow: hidden;
-  margin-left: 50px;
   cursor: pointer;
+  height: 201.8px;
+  margin-left: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
 }
 
 .q6_box:first-child {
@@ -19,9 +19,9 @@
 }
 
 .q6_img {
-  width: 100%;
   height: 100%;
   transition: 0.5s all;
+  width: 100%;
 }
 
 .expantion:hover .q6_img {
@@ -29,23 +29,23 @@
 }
 
 .q6-1_text {
-  position: absolute;
-  bottom: -100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
+  bottom: -100%;
+  height: 100%;
+  left: 0;
+  position: absolute;
   transition: all 0.5s;
+  width: 100%;
 }
 
 .q6-1_text p {
-  position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-  color: #fff;
   box-sizing: border-box;
+  color: #fff;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
   word-break: break-all;
 }
 
@@ -54,25 +54,25 @@
 }
 
 .q6-2_box {
-  width: 960px;
   margin: 0 auto;
+  width: 960px;
 }
 
 .q6-2_text_relative {
-  position: relative;
   overflow: hidden;
+  position: relative;
 }
 
 .q6-2_text {
+  box-sizing: border-box;
   height: 540px;
   padding: 80px 0;
-  box-sizing: border-box;
 }
 
 .q6-2_text p{
-  font-size: 200px;
-  display: inline-block;
   animation: loop 10s linear infinite;
+  display: inline-block;
+  font-size: 200px;
 }
 
 @keyframes loop{

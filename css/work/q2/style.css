@@ -6,16 +6,7 @@
   text-align: center;
 }
 
-.table thead th {
-  background-color: #2244aa;
-  color: white;
-  font-size: 18px;
-  line-height: 26px;
-  padding: 10px;
-  border: solid 1px white;
-}
-
-.table tbody th {
+.table thead th, .table tbody th {
   background-color: #2244aa;
   color: white;
   font-size: 18px;
@@ -31,11 +22,11 @@
   border: solid 1px #dedede;
 }
 
-tr:nth-child(even) td {
+.table tr:nth-child(even) td {
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child{
+.table tbody tr:last-child{
   border-top: dashed 2px #000;
 }
 
