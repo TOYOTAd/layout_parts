@@ -18,26 +18,23 @@
   width: 510px;
 }
 
-.q7_text::before {
+.q7_text::before, .q7_text::after {
   border: 20px solid transparent;
-  border-right-color: #222;
   bottom: 25px;
   content: "";
   height: 0;
-  left: -45px;
   position: absolute;
   width: 0;
 }
 
+.q7_text::before {
+  border-right-color: #222;
+  left: -45px;
+}
+
 .q7_text::after {
-  border: 20px solid transparent;
   border-right-color: #fff;
-  bottom: 25px;
-  content: "";
-  height: 0;
   left: -38px;
-  position: absolute;
-  width: 0;
 }
 
 .q7_text p {
